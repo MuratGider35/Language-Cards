@@ -4,7 +4,10 @@ import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <Container className="text-center mt-4 p-4">
+    <Container
+      style={{ background: "yellow" }}
+      className="text-center mt-4 p-4 rounded-5"
+    >
       <Header />
       <Card />
     </Container>
